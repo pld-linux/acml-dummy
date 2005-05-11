@@ -7,7 +7,7 @@ License:	GPL
 Group:		Libraries
 URL:		http://www.developwithamd.com/acml/
 Provides:	libacml.so()(64bit)
-ExclusiveArch:	amd64
+ExclusiveArch:	%{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,8 +24,6 @@ nag³ówkowe trzeba ¶ci±gn±æ samemu ze strony internetowej AMD.
 
 %prep
 %setup -q -T
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
