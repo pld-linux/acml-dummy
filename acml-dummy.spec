@@ -1,5 +1,5 @@
 Summary:	AMD Core Math Library
-Summary(pl.UTF-8):   Podstawowa biblioteka matematyczna AMD (ACML)
+Summary(pl.UTF-8):	Podstawowa biblioteka matematyczna AMD (ACML)
 Name:		acml-dummy
 Version:	2.5.0
 Release:	1
