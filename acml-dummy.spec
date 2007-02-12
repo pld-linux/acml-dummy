@@ -1,5 +1,5 @@
 Summary:	AMD Core Math Library
-Summary(pl):	Podstawowa biblioteka matematyczna AMD (ACML)
+Summary(pl.UTF-8):   Podstawowa biblioteka matematyczna AMD (ACML)
 Name:		acml-dummy
 Version:	2.5.0
 Release:	1
@@ -16,11 +16,11 @@ ACML is a set of highly-optimized numerical libraries for use with
 dependencies for RPM. Libraries and include files should be obtained
 separately from AMD website.
 
-%description -l pl
+%description -l pl.UTF-8
 ACML jest zestawem mocno optymalizowanych bibliotek numerycznych,
-przeznaczonych do u¿ycia z 64-bitowymi procesorami firmy AMD. Ten pakiet
-dostarcza niezbêdnych zale¿no¶ci systemowi RPM. Biblioteki i pliki
-nag³ówkowe trzeba ¶ci±gn±æ samemu ze strony internetowej AMD.
+przeznaczonych do uÅ¼ycia z 64-bitowymi procesorami firmy AMD. Ten pakiet
+dostarcza niezbÄ™dnych zaleÅ¼noÅ›ci systemowi RPM. Biblioteki i pliki
+nagÅ‚Ã³wkowe trzeba Å›ciÄ…gnÄ…Ä‡ samemu ze strony internetowej AMD.
 
 %prep
 %setup -q -T
